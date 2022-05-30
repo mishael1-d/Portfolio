@@ -10,7 +10,7 @@ function Navbar() {
   const closeMobileMenu = () => setClick(false);
   return (
       <nav className="navbar">
-        <a href="#" className="navbar-logo">
+        <a href="/" className="navbar-logo">
           <img src={logo} alt="MISH" />
         </a>
         <div className="menu-icon" onClick={handleClick}>
