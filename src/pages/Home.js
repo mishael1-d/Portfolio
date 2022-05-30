@@ -6,8 +6,8 @@ import Work from "../components/Work/Work";
 
 function Home() {
   return (
-      <div id="home">
-        <Banner />
+      <div>
+        <Banner/>
         <About />
         <Work />
       </div>

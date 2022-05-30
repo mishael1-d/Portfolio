@@ -50,10 +50,10 @@
     outline: none;
 }
 
-.pri a {
+.card-links a .pri{
     color: #EF6D58;
 }
-.previewLink-btn a {
+.card-links a .previewLink-btn {
     color: #fff;
 }
 
