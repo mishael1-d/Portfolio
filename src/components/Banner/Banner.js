@@ -12,10 +12,10 @@ function Banner() {
           <p>
             I am a Front-End Developer, i can provide you with services such as
             Website or Web application Design and Development.
-          </p>
+          </p><a href="#works">
           <button className="primary">
-            <a href="#works">See My Work</a>
-          </button>
+            See My Work
+          </button></a>
         </div>
         <div className="banner-image">
           <img src={image} alt="Mishael Dada" />

@@ -6,13 +6,11 @@ import Work from "../components/Work/Work";
 
 function Home() {
   return (
-    <>
-      <div>
+      <div id="home">
         <Banner />
         <About />
         <Work />
       </div>
-    </>
   );
 }
 

@@ -69,10 +69,10 @@ function Cards() {
               <p>{cardItem.projectDescription}</p>
               <div className="card-links">
                 <button className="pri">
-                  <a href={cardItem.repoLink} target="_blank" >View Code</a>
+                  <a href={cardItem.repoLink} target="_blank" rel="noreferrer" >View Code</a>
                 </button>
                 <button className="previewLink-btn">
-                  <a href={cardItem.previewLink} target= "_blank">Preview</a>
+                  <a href={cardItem.previewLink} target= "_blank" rel="noreferrer">Preview</a>
                 </button>
               </div>
             </div>
