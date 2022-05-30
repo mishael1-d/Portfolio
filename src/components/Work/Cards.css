@@ -1,7 +1,7 @@
 .card-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     flex-grow: 1;
     width: 100%;
 }
@@ -9,7 +9,11 @@
     width: 300px;
     height: fit-content;
     background-color: rgb(221, 217, 217);
-    margin-bottom: 50px;
+    margin: 30px;
+    transition: .5s ease-in-out;
+}
+.card__container:hover {
+    transform: scale(1.1)
 }
 .card-thumbnail {
     width: 300px;

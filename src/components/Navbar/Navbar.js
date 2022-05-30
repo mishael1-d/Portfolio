@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Button from "./Button";
 import "./Navbar.css";
-import Dropdown from "./Dropdown";
 import logo from "../../assets/logo-white.png";
 
 function Navbar() {

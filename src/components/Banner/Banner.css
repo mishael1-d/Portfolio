@@ -45,13 +45,15 @@
     padding: 10px 20px;
     border-radius: 6px;
     cursor: pointer;
-    animation: animateBtn 2s ease-in-out infinite;
+    animation: animateBtn 1s ease-in-out infinite;
     margin-top: 5px;
 }
 .banner-text button:hover {
     background: none;
     border: 1px solid var(--btn_border);
-    /* padding: 8px 18px; */
+}
+.banner-text button a  {
+    color: #fff;
 }
 .banner-image img {
     width: 500px;
