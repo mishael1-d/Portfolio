@@ -1,13 +1,19 @@
+.about-section {
+    position: relative;
+    top: -50px;
+}
+
 .about-text__container {
     padding: 3.8rem;
     margin: 0 auto;
+    width:60%;
 }
 
-.about-text__header {
+.section-text__header {
     margin: 20px 0;
 }
 
-.about-text__title {
+.section-text__title {
     display: block;
     text-align: center;
     color: #EF6D58;
@@ -23,9 +29,24 @@
     width: 80px;
 }
 
+.about-section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .about-text__text {
     color: #28293e;
     text-align: justify;
+}
+
+.about-image__container {
+    width: 50%;
+}
+.about-image__container img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
 }
 
 .about-section .primary {
@@ -44,7 +65,10 @@
         display: none;
     }
     .about-text__container {
+        position: relative;
+        top: 50px;
         padding: 0;
+        width: 100%;
     }
     .about-section .primary {
         display: block;

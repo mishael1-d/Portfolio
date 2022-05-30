@@ -10,8 +10,8 @@ function About() {
           <img src={image} alt="About Me" className="about-image-img" />
         </div>
         <div className="about-text__container">
-          <div className="about-text__header">
-            <h3 className="about-text__title">About Me</h3>
+          <div className="section-text__header">
+            <h3 className="section-text__title">About Me</h3>
             <div className="divider" />
           </div>
           <div className="about-text__text">

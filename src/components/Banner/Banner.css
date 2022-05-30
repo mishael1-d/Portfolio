@@ -17,7 +17,7 @@
 .banner-section {
     background-color: var(--bg_primary);
     position: relative;
-    top: 5%;
+    /* top: 60px; */
 }
 .banner-text {
     padding: 100px 0;
@@ -78,9 +78,7 @@
         flex-direction: column-reverse;
     }
     .banner-image{
-        display: flex;
-        justify-content:center;
-        align-items:center;
+        display: none;
     }
     .banner-image img {
         width: 300px;

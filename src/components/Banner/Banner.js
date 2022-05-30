@@ -8,9 +8,9 @@ function Banner() {
       <div className='container'>
         <div className='banner-text'>
           <h3>MISHAEL DADA</h3>
-          <h1>FrontEnd Web Developer</h1>
+          <h1>Frontend Web Developer</h1>
           <p>I am a Front-End Developer, i can provide you with services such as Website or Web application Design and Development.</p>
-          <button className='primary'>See My Work</button>
+          <button className='primary'><a href="#works">See My Work</a></button>
         </div>
         <div className='banner-image'>
             <img src={image} alt="Mishael Dada"/>
