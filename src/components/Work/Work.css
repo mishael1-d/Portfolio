@@ -1,3 +1,8 @@
+.work-section .container {
+    flex-direction: column;
+}
+
+
 .work-section .section-text__header{
     display: block;
     margin: 0 auto;
@@ -11,6 +16,10 @@
 
 @media screen and (max-width: 960px) {
     .work-section {
+        position: relative;
         top: 100px;
+    }
+    .work-section .section-text__header .divider {
+        margin-bottom: 10px;
     }
 }

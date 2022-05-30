@@ -25,6 +25,11 @@
     object-fit: cover;
 }
 
+.card-text {
+    padding: 10px;
+    text-align: center;
+}
+
 .card-text-title {
     margin: 5px 0;
 }
@@ -60,9 +65,7 @@
 
 @media screen and (max-width: 960px) {
     .card-section {
-        width: 100%;
         margin: 0 auto;
-        justify-content: center;
     }
     .card-thumbnail {
         width: 100%;
