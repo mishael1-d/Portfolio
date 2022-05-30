@@ -50,9 +50,8 @@ function Navbar() {
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              See my Works <i className="fas fa-caret-down" />
-            </a>
-            {dropdown && <Dropdown />}
+              Projects
+              </a>
           </li>
           <li className="nav-item">
             <a
