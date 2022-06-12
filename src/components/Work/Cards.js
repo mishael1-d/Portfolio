@@ -52,8 +52,7 @@ function Cards() {
             <div className="card-thumbnail">
               <img
                 src={cardItem.projectThumbnail}
-                alt={cardItem.projectTitle}
-                srcset=""
+                alt=""
               />
             </div>
             <div className="card-text">
