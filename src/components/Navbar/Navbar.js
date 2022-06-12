@@ -33,6 +33,17 @@ function Navbar() {
               Projects
               </a>
           </li>
+          <li
+            className="nav-item"
+          >
+            <a
+              href="#blogs"
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              Blog
+              </a>
+          </li>
           <li className="nav-item">
             <a
               href="#contact"
