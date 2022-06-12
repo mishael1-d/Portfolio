@@ -2,7 +2,7 @@ import React from "react";
 import About from "../components/About/About";
 import Banner from "../components/Banner/Banner";
 import Work from "../components/Work/Work";
-// import Service from "../components/Services/Service";
+import Blog from "../components/Blog/Blog";
 
 function Home() {
   return (
@@ -10,6 +10,7 @@ function Home() {
         <Banner/>
         <About />
         <Work />
+        <Blog />
       </div>
   );
 }
