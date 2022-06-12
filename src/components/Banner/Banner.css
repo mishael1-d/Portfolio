@@ -1,5 +1,5 @@
 :root {
-    --bg_primary: #28293E;
+    --bg_primary: #111;
     --primary: #EF6D58;
     --btn_border: #FFFFFF;
     --text_primary: rgb(255, 255, 255);
@@ -24,7 +24,7 @@
     max-width: 470px;
 }
 .banner-text h3 {
-    color: var(--text_secondary);
+    color: var(--text_primary);
     font-size: var(--paragraph_font);
     margin-bottom: 13px;
 }
@@ -38,10 +38,10 @@
     margin-bottom: 13px;
 }
 .banner-text button {
-    background-color: var(--primary);
+    background-color: var(--text_primary);
     outline: none;
-    border: 1px solid var(--primary);
-    color: var(--text_primary);
+    border: 1px solid var(--text_primary);
+    color: var(--bg_primary);
     padding: 10px 20px;
     border-radius: 6px;
     cursor: pointer;
@@ -51,6 +51,7 @@
 .banner-text button:hover {
     background: none;
     border: 1px solid var(--btn_border);
+    color:#fff;
 }
 .banner-text button a  {
     color: #fff;
