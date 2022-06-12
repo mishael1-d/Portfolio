@@ -16,7 +16,7 @@
 .section-text__title {
     display: block;
     text-align: center;
-    color: #EF6D58;
+    color: #111;
     text-transform: uppercase;
 }
 
@@ -25,7 +25,7 @@
     text-align: center;
     margin: 5px auto;
     height: 1px;
-    background-color: #EF6D58;
+    background-color: #111;
     width: 80px;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .about-section .primary {
-    background-color: #EF6D58;
+    background-color: #111;
     outline: none;
     border: none;
     color: #fff;

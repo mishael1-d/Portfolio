@@ -46,17 +46,17 @@
 
 .card-links .pri {
     background: none;
-    border: 1px solid #EF6D58;
+    border: 1px solid #111;
 }
 
 .previewLink-btn {
-    background-color: #EF6D58;
+    background-color: #111;
     border: none;
     outline: none;
 }
 
 .card-links a .pri{
-    color: #EF6D58;
+    color: #111;
 }
 .card-links a .previewLink-btn {
     color: #fff;
