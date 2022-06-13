@@ -1,4 +1,6 @@
-.blog-section .section-text__header {
-    text-align: center;
-    margin: 100px auto 0 auto;
-}
+
+.contact-section .container {
+    position: relative;
+    top: 150px;
+    flex-direction: column;
+  }
