@@ -55,3 +55,14 @@
   font-size: 16px;
   color: #fff;
 }
+
+
+@media screen and (max-width: 960px) {
+    .article__container {
+        flex-direction: column;
+        margin: 0;
+    }
+    .blog-section .container {
+        top: 50px;
+    }
+}

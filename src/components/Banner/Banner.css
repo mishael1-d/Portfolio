@@ -98,4 +98,10 @@
   .banner-section {
       height: fit-content;
   }
+  .banner-text h3  {
+      font-size: 1.5rem;
+  }
+  .banner-text h1  {
+      font-size: 2rem;
+  }
 }

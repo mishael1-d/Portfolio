@@ -65,12 +65,14 @@
 }
 
 @media screen and (max-width: 960px) {
+    .about-section {
+        height: fit-content;
+    }
   .about-image__container {
     display: none;
   }
   .about-text__container {
     position: relative;
-    top: 50px;
     padding: 0;
     width: 100%;
   }
