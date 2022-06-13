@@ -1,11 +1,29 @@
 .contact-section .container {
-    position: relative;
-    top: 150px;
-    flex-direction: column;
+  position: relative;
+  top: 150px;
+  flex-direction: column;
+}
+.social-media-links-container {
+  display: flex;
+  color: #fff;
+}
+.social-media-links-container li {
+  list-style: none;
+  cursor: pointer;
+  margin: 0 20px;
+}
+.social-media-links-container li:hover {
+  transform: scale(1.1);
+}
+svg {
+  width: 20px;
+  height: 20px;
+}
+svg .feather {
+  fill: none;
+}
+@media screen and (max-width: 960px) {
+  .contact-section .container {
+    top: 50px;
   }
-
-  @media screen and (max-width: 960px) {
-    .contact-section .container {
-        top: 50px;
-    }
-  }
+}
