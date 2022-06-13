@@ -39,7 +39,7 @@ function Cards() {
     <div className="card-section">
       {cardItems.map((cardItem) => {
         return (
-          <div className="card__container">
+          <div className="card__container" key={cardItem.projectTitle}>
             <div className="card-thumbnail">
               <img
                 src={cardItem.projectThumbnail}
