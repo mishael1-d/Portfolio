@@ -15,16 +15,16 @@ function Blog() {
             <img src={blog1} alt="" />
             <h3 className="blog-title">Getting Started in the tech industry</h3>
             <div className="blog-overlay">
-              <a href="#" target="_blank" rel="noreferrer">
+              <a href="https://mish-blog.hashnode.dev/how-to-get-started-in-the-tech-industry" target="_blank" rel="noreferrer">
                 <button className="previewLink-btn">Read More</button>
               </a>
             </div>
           </article>
           <article className="blog blog1">
             <img src={blog1} alt="" />
-            <h3 className="blog-title">Challenges faced when starting out in the tech industry</h3>
+            <h3 className="blog-title">Challenges faced as a rookie in the tech industry</h3>
             <div className="blog-overlay">
-              <a href="#" target="_blank" rel="noreferrer">
+              <a href="https://mish-blog.hashnode.dev/challenges-faced-as-a-rookie-in-the-tech-industry" target="_blank" rel="noreferrer">
                 <button className="previewLink-btn">Read More</button>
               </a>
             </div>
