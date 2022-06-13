@@ -4,10 +4,10 @@ import "./Work.css";
 
 function Work() {
   return (
-    <div className="work-section" works id="works">
+    <div className="work-section" >
       <div className="container">
         <div className="section-text__header">
-          <h3 className="section-text__title">
+          <h3 className="section-text__title" id="works">
             A collection of side hustle projects.
           </h3>
           <div className="divider" />

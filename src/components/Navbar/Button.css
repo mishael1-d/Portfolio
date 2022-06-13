@@ -1,13 +1,12 @@
-
 .btn {
     padding: 7px 19px;
     border-radius: 4px;
     outline: none;
     border: none;
     font-size: 14px;
-    color: #fff;
     cursor: pointer;
     background-color: transparent;
+    color: #fff;
     border: 1px solid #fff;
 }
 
@@ -15,7 +14,7 @@
     padding: 8px 20px;
     transition: all 0.3s ease-out;
     background-color: #fff;
-    color: #111;
+    color: #000 !important;
     border-radius: 4px;
     outline: none;
 }

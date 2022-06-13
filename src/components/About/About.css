@@ -1,6 +1,9 @@
 .about-section {
     position: relative;
-    top: -50px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-text__container {
@@ -16,7 +19,7 @@
 .section-text__title {
     display: block;
     text-align: center;
-    color: #111;
+    color: #fff;
     text-transform: uppercase;
 }
 
@@ -25,7 +28,7 @@
     text-align: center;
     margin: 5px auto;
     height: 1px;
-    background-color: #111;
+    background-color: #fff;
     width: 80px;
 }
 
@@ -36,7 +39,7 @@
 }
 
 .about-text__text {
-    color: #28293e;
+    color: #fff;
     text-align: justify;
 }
 
@@ -50,10 +53,10 @@
 }
 
 .about-section .primary {
-    background-color: #111;
+    background-color: #fff;
     outline: none;
     border: none;
-    color: #fff;
+    color: #111;
     padding: 10px 20px;
     border-radius: 6px;
     cursor: pointer;

@@ -8,30 +8,34 @@
     --heading_font: 2rem;
     --paragraph_font: 1rem;
 }
-.container {
+.container {    
     width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content:space-between;
+    align-items: center;
 }
 .banner-section {
     background-color: var(--bg_primary);
     position: relative;
-    /* top: 60px; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .banner-text {
     padding: 100px 0;
-    max-width: 470px;
+    max-width: 500px;
 }
 .banner-text h3 {
     color: var(--text_primary);
-    font-size: var(--paragraph_font);
+    font-size: 2rem;
     margin-bottom: 13px;
 }
 .banner-text h1 {
     color: var(--text_primary);
     margin-bottom: 13px;
-    font-size: var(--heading_font);
+    font-size: 4rem;
 }
 .banner-text p {
     color: var(--paragraph_primary);

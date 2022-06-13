@@ -1,25 +1,26 @@
 .work-section .container {
-    flex-direction: column;
+  flex-direction: column;
 }
 
-
-.work-section .section-text__header{
-    display: block;
-    margin: 0 auto;
-    text-align: center;
+.work-section {
+  position: relative;
+  top: 100px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 .work-section .section-text__header .divider {
-    width: 300px;
-    margin-bottom: 30px;
+  width: 300px;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 960px) {
-    .work-section {
-        position: relative;
-        top: 100px;
-    }
-    .work-section .section-text__header .divider {
-        margin-bottom: 10px;
-    }
+  .work-section {
+    position: relative;
+    top: 100px;
+  }
+  .work-section .section-text__header .divider {
+    margin-bottom: 10px;
+  }
 }
