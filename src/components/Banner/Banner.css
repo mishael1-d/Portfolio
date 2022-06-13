@@ -5,7 +5,7 @@
     --text_primary: rgb(255, 255, 255);
     --paragraph_primary: rgba(255, 255, 255, .64);
     --text_secondary: #ef6d58;
-    --heading_font: 1.5rem;
+    --heading_font: 2rem;
     --paragraph_font: 1rem;
 }
 .container {
@@ -31,6 +31,7 @@
 .banner-text h1 {
     color: var(--text_primary);
     margin-bottom: 13px;
+    font-size: var(--heading_font);
 }
 .banner-text p {
     color: var(--paragraph_primary);
