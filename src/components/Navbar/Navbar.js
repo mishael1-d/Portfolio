@@ -8,59 +8,29 @@ function Navbar() {
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
+
+  const links = ["Home", "About", "Projects", "Blogs", "Contact"];
   return (
-      <nav className="navbar">
-        <a href="/" className="navbar-logo">
-          <img src={logo} alt="MISH" />
-        </a>
-        <div className="menu-icon" onClick={handleClick}>
-          <i className={click ? "fas fa-times" : "fas fa-bars"} />
-        </div>
-        <ul className={click ? "nav-menu active" : "nav-menu"}>
-          <li className="nav-item">
-            <a href="#home" className="nav-links" onClick={closeMobileMenu}>
-              Home
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="#about" className="nav-links" onClick={closeMobileMenu}>
-              About
-            </a>
-          </li>
-          <li
-            className="nav-item"
-          >
-            <a
-              href="#works"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              Projects
+    <nav className="navbar">
+      <a href="/" className="navbar-logo">
+        <img src={logo} alt="MISH" />
+      </a>
+      <div className="menu-icon" onClick={handleClick}>
+        <i className={click ? "fas fa-times" : "fas fa-bars"} />
+      </div>
+      <ul className={click ? "nav-menu active" : "nav-menu"}>
+        {links.map((link) => {
+          return (
+            <li className="nav-item">
+              <a href={`#${link}`} className="nav-links" onClick={closeMobileMenu}>
+                {link}
               </a>
-          </li>
-          <li
-            className="nav-item"
-          >
-            <a
-              href="#blogs"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              Blog
-              </a>
-          </li>
-          <li className="nav-item">
-            <a
-              href="#contact"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              Contact{" "}
-            </a>
-          </li>
-        </ul>
-        <Button />
-      </nav>
+            </li>
+          );
+        })}
+      </ul>
+      <Button />
+    </nav>
   );
 }
 
