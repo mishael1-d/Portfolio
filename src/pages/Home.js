@@ -7,7 +7,7 @@ import Contact from "../components/Contact/Contact";
 
 function Home() {
   return (
-    <div id="home">
+    <div id="Home">
       <Banner />
       <About />
       <Work />

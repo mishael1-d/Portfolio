@@ -4,7 +4,7 @@ import blog1 from "../../assets/blog1.webp";
 
 function Blog() {
   return (
-    <div className="blog-section" id="blogs">
+    <div className="blog-section" id="Blogs">
       <div className="container">
         <div className="section-text__header">
           <h3 className="section-text__title">Recent Blog Articles</h3>

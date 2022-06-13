@@ -56,7 +56,11 @@
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
-
+.active-link {
+  background-color: #fff;
+  color: rgb(21, 43, 48) !important;
+  border-radius: 4px;
+}
 .nav-links:hover {
   background-color: #fff;
   color: rgb(21, 43, 48);
