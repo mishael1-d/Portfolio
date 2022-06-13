@@ -32,7 +32,7 @@ function About() {
             thus far, i'm dedicated, foused and consistent when it comes to
             learning or picking up new technologies.
           </div>
-          <a href="#works">
+          <a href="#Projects">
             <button className="primary">See my Works</button>
           </a>
         </div>

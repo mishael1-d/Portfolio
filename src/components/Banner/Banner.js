@@ -26,7 +26,7 @@ function Banner() {
           <p>
             I am a Front-End Developer, i can provide you with services such as
             Website or Web application Design and Development.
-          </p><a href="#works">
+          </p><a href="#Projects">
           <button className="primary">
             See My Work
           </button></a>
