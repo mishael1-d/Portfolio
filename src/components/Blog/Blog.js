@@ -1,6 +1,7 @@
 import React from "react";
 import "./Blog.css";
 import blog1 from "../../assets/blog1.png";
+import blog2 from "../../assets/blog2.png";
 
 function Blog() {
   return (
@@ -21,7 +22,7 @@ function Blog() {
             </div>
           </article>
           <article className="blog blog1">
-            <img src={blog1} alt="" />
+            <img src={blog2} alt="" />
             <h3 className="blog-title">Challenges faced as a rookie in the tech industry</h3>
             <div className="blog-overlay">
               <a href="https://mish-blog.hashnode.dev/challenges-faced-as-a-rookie-in-the-tech-industry" target="_blank" rel="noreferrer">
