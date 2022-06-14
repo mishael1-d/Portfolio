@@ -37,6 +37,7 @@
 .card-text p {
   font-size: 14px;
   margin-bottom: 5px;
+  color: #002a3e !important;
 }
 .card-links button {
   padding: 8px 20px;
