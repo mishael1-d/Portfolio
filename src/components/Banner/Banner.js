@@ -1,12 +1,11 @@
 import React, { useEffect } from "react";
 import "./Banner.css";
-import image from "../../assets/banner-image.png";
 
 function Banner() {
   useEffect(()=>{
     var i = 0,
         text;
-      text = "Frontend Web Developer";
+      text = "Frontend Software Engineer";
       function typing() {
         if (i < text.length) {
           document.getElementById("animate").innerHTML += text.charAt(i);
@@ -15,25 +14,27 @@ function Banner() {
         }
       }
       typing();
+      return()=>{
+        document.getElementById("animate").innerHTML = ''
+      }
   },[])
   return (
     <div className="banner-section">
       <div className="container">
         <div className="banner-text">
-          <p>Hi, my name is</p>
-          <h3>MISHAEL DADA</h3>
+          <p className="banner-title">Hi, my name is</p>
+          <h3>Mishael Dada.</h3>
           <h1 id="animate">{" "}</h1>
           <p>
-            I am a Front-End Developer, i can provide you with services such as
-            Website or Web application Design and Development.
+            I am a Frontend Software Engineer, with holistic knowledge of frontend development technologies used to plan, build and delopy A<sup>+</sup> grade website and web applications.
           </p><a href="#Projects">
           <button className="primary">
             See My Work
           </button></a>
         </div>
-        <div className="banner-image">
+        {/* <div className="banner-image">
           <img src={image} alt="Mishael Dada" />
-        </div>
+        </div> */}
       </div>
     </div>
   );

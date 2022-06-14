@@ -47,17 +47,17 @@
 
 .card-links .pri {
   background: none;
-  border: 1px solid rgb(21, 43, 48);
+  border: 1px solid #002a3e;
 }
 
 .previewLink-btn {
-  background-color: rgb(21, 43, 48);
+  background-color: #002a3e;
   border: none;
   outline: none;
 }
 
 .card-links a .pri {
-  color: rgb(21, 43, 48);
+  color: #002a3e;
 }
 .card-links a .previewLink-btn {
   color: #fff;

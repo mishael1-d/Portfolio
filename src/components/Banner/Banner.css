@@ -1,5 +1,5 @@
 :root {
-  --bg_primary: rgb(21, 43, 48);
+  --bg_primary: #002a3e;
   --primary: #ef6d58;
   --btn_border: #ffffff;
   --text_primary: rgb(255, 255, 255);
@@ -16,7 +16,7 @@
   align-items: center;
 }
 .banner-section {
-  background-color: rgb(21, 43, 48);
+  /* background-color: #002a3e; */
   position: relative;
   height: 100vh;
   display: flex;
@@ -25,11 +25,11 @@
 }
 .banner-text {
   padding: 100px 0;
-  max-width: 500px;
+  /* max-width: 500px; */
 }
 .banner-text h3 {
   color: var(--text_primary);
-  font-size: 2rem;
+  font-size: 4rem;
   margin-bottom: 13px;
 }
 .banner-text h1 {
@@ -37,18 +37,22 @@
   margin-bottom: 13px;
   font-size: 4rem;
   position: relative;
+  text-transform: uppercase;
 }
-
+.banner-title {
+  color: #43ddff;
+}
 .banner-text p {
-  color: var(--paragraph_primary);
   line-height: 32px;
   margin-bottom: 13px;
+  font-size: 1.1rem;
+  max-width: 700px;
 }
 .banner-text button {
-  background-color: var(--text_primary);
+  background-color: transparent;
   outline: none;
-  border: 1px solid var(--text_primary);
-  color: var(--bg_primary);
+  border: 1px solid #43ddff;
+  color: #43ddff;
   padding: 10px 20px;
   border-radius: 6px;
   cursor: pointer;
@@ -56,9 +60,7 @@
   margin-top: 5px;
 }
 .banner-text button:hover {
-  background: none;
-  border: 1px solid var(--btn_border);
-  color: #fff;
+  background-color: rgba(112, 214, 237, 0.3);
 }
 .banner-text button a {
   color: #fff;
@@ -96,12 +98,12 @@
     display: block;
   }
   .banner-section {
-      height: fit-content;
+    height: fit-content;
   }
-  .banner-text h3  {
-      font-size: 1.5rem;
+  .banner-text h3 {
+    font-size: 1.5rem;
   }
-  .banner-text h1  {
-      font-size: 2rem;
+  .banner-text h1 {
+    font-size: 2rem;
   }
 }

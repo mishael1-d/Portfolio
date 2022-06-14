@@ -113,6 +113,7 @@ function Contact() {
             </a>
           </li>
         </div>
+        <p className="footer">Designed and Developer By <br/><span>Mishael Dada</span></p>
       </div>
     </div>
   );
