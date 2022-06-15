@@ -113,7 +113,7 @@ function Contact() {
             </a>
           </li>
         </div>
-        <p className="footer">Designed and Developer By <br/><span>Mishael Dada</span></p>
+        <p className="footer">Designed and Developer By <br/><span><a href="https://github.com/mishael1-d">Mishael Dada</a></span></p>
       </div>
     </div>
   );

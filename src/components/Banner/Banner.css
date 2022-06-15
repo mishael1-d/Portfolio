@@ -49,6 +49,9 @@
   max-width: 700px;
   color: #fff !important;
 }
+.banner-text span {
+  color: #43ddff;
+}
 .banner-text button {
   background-color: transparent;
   outline: none;
@@ -59,6 +62,7 @@
   cursor: pointer;
   animation: animateBtn 1s ease-in-out infinite;
   margin-top: 5px;
+  transition: .8s ease-in-out;
 }
 .banner-text button:hover {
   background-color: rgba(112, 214, 237, 0.3);

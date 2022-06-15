@@ -10,9 +10,6 @@
   top: 0;
   z-index: 1000;
 }
-.navbar a {
-  color: #fff;
-}
 .navbar-logo {
   color: #fff;
   justify-self: start;
@@ -52,7 +49,7 @@
 }
 
 .nav-links {
-  color: #43ddff !important;
+  color: #fff !important;
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
@@ -63,7 +60,7 @@
 }
 .nav-links:hover {
   background-color: #fff;
-  color: #002a3e;
+  color: #002a3e !important;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }

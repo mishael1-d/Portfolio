@@ -23,7 +23,7 @@ function Banner() {
       <div className="container">
         <div className="banner-text">
           <p className="banner-title">Hi, my name is</p>
-          <h3>Mishael Dada.</h3>
+          <h3>Mishael <span>Dada.</span></h3>
           <h1 id="animate">{" "}</h1>
           <p>
             I am a Frontend Software Engineer, with holistic knowledge of frontend development technologies used to plan, build and delopy A<sup>+</sup> grade website and web applications.

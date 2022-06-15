@@ -1,13 +1,14 @@
 import React from "react";
-import image from "../../assets/banner-image.png";
 import "./About.css";
-
+import image from '../../assets/banner-image.png'
 function About() {
   return (
     <div className="about-section" id="About">
       <div className="container">
         <div className="about-image__container">
           <img src={image} alt="About Me" className="about-image-img" />
+          {/* <div className="img"></div>
+          <div className="img1"></div> */}
         </div>
         <div className="about-text__container">
           <div className="section-text__header">
@@ -16,8 +17,8 @@ function About() {
           </div>
           <div className="about-text__text">
             My name is <strong>MISHAEL DADA</strong>, I'm from Nigeria and i am
-            a <strong>Frontend Web Developer.</strong>
-            <br />I have a years working experince as a frontend developer and i
+            a <strong>Frontend Software Engineer.</strong>
+            <br />I have 2 years working experince as a frontend developer and i
             have a good understanding of my frontend technologies (HTML,CSS,
             Javascript, Typescript, ReactJs, NextJs, Redux, Tailwind Css) among
             others.

@@ -27,9 +27,13 @@
 svg {
   width: 20px;
   height: 20px;
+  transition: .5s;
 }
 svg .feather {
   fill: none;
+}
+svg:hover{
+  color: #43ddff;
 }
 .contact-btn button {
   background-color: #fff;
@@ -53,7 +57,7 @@ svg .feather {
   margin-bottom: 30px;
   text-align: center;
 }
-.footer span {
+.footer span a{
   color: #43ddff;
   margin-top: 10px;
 }
