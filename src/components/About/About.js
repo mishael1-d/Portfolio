@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import image from '../../assets/banner-image.png'
+import image from "../../assets/banner-image.png";
 function About() {
   return (
     <div className="about-section" id="About">
@@ -20,7 +20,7 @@ function About() {
             a <strong>Frontend Software Engineer.</strong>
             <br />I have 2 years working experince as a frontend developer and i
             have a good understanding of my frontend technologies (HTML,CSS,
-            Javascript, Typescript, ReactJs, NextJs, Redux, Tailwind Css) among
+            Javascript, Typescript, ReactJs, NextJs, Redux, Tailwind CSS) among
             others.
             <br />
             I'm a graduate of Biochemistry from one of the most prestigious

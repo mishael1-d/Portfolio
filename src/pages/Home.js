@@ -7,7 +7,7 @@ import Contact from "../components/Contact/Contact";
 
 function Home() {
   return (
-    <div id="Home">
+    <div id="Home" style={{position :"relative"}}>
       <Banner />
       <About />
       <Work />

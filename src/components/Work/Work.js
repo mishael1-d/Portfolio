@@ -4,9 +4,9 @@ import "./Work.css";
 
 function Work() {
   return (
-    <div className="work-section"  id="Projects">
+    <div className="work-section" >
       <div className="container">
-        <div className="section-text__header">
+        <div className="section-text__header" id="Projects">
           <h3 className="section-text__title">
             A collection of side hustle projects.
           </h3>

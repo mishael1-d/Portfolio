@@ -8,6 +8,7 @@ body {
     scroll-behavior: smooth;
     background-color: #002a3e;
     color: #ccd6f6;
+    position: relative;
 }
 a {
     text-decoration: none;
