@@ -3,8 +3,16 @@ import "./Cards.css";
 import real from '../../assets/real.png'
 import notification from '../../assets/notification.png'
 import elmour from '../../assets/elmour.png'
+import hovatravel from '../../assets/hovatravel.png'
 
 const cardItems = [
+  {
+    projectTitle: "HovaTravels Website",
+    projectThumbnail: hovatravel,
+    previewLink: "https://hovatravel.netlify.app/",
+    repoLink: "https://github.com/mishael1-d/hovatravels",
+    projectDescription: "Travel agency website.",
+  },
   {
     projectTitle: "Real Estate Website",
     projectThumbnail: real,
