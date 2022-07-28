@@ -92,4 +92,7 @@
   .about-section .primary {
     display: block;
   }
+  .about-text__text {
+    text-align: left;
+  }
 }
